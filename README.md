@@ -1,0 +1,2 @@
+# TietorakenteetJaAlgoritmit-Harjoitustyo
+Study stuff
