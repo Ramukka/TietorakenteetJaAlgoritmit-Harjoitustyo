@@ -1,2 +1,2 @@
 # TietorakenteetJaAlgoritmit-Harjoitustyo
-Study stuff
+Raportti tulee tänne
