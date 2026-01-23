@@ -9,6 +9,14 @@ modulaarisesti, ja algoritmien vertailu oli helppoa. tiedostossa on myös TimerU
 hyödynsin ajan mittaamiseen.  
 alla eri algoritmien vertailuja satunnaisella, nousevalla ja laskevalla datalla.
 
+#### Testausympäristö
+* **Testilaite:** Intel i5-4210M (4) @ 3.200GHz, 16 GiB RAM
+* **Käyttöjärjestelmä:** Arch Linux (Kernel 6.18.6-arch1-1)
+* **Java-versio:** OpenJDK 25.0.2 (2026-01-20)
+* **JVM:** OpenJDK 64-Bit Server VM (build 25.0.2, mixed mode, sharing)
+* **Kehitysympäristö:** Visual Studio Code
+
+
 ### Testitulokset
 **N=10000**
 | Algoritmi | Random data | Nouseva data | Laskeva data |
@@ -52,7 +60,7 @@ Optimoidussa MergeSortissa käytetään kahden aputaulukon sijaan vain yhtä apu
 Pienillä osataulukoilla algoritmi vaihtaa InsertionSorttiin. Vaikka InsertionSort on teoreettisesti $O(n^2)$, Se on kuitenkin hyvin pienillä datamäärillä usein nopeampi. Tämän avulla voidaan vähentää rekursiokutsujen määrää, joka näkyy suorituskyvyn parantumisena.
 
 ### Yhteenveto
-- Jos muistinkäyttö on kriittistä, QuickSort tai SHellSort ovat parhaita vaihtoehtoja. Ne eivät kuitenkaan ole stabiileja joten vakautta, sekä nopeutta tarvittaessa optimoitu MergeSort on erinomainen.  
-- Jos data on lähes järjestyksessä, tai sitä on pieni määrä, InsertionSort on varteenotettava vaihtoehto.
-- BubbleSort on lähes hyödytön, eikä sitä kannata käyttää oikein missään tilanteessa.
-- Arrays.sort on käytännössä turvallisin, ja paras yleistyökalu.
+* Jos muistinkäyttö on kriittistä, QuickSort tai SHellSort ovat parhaita vaihtoehtoja. Ne eivät kuitenkaan ole stabiileja joten vakautta, sekä nopeutta tarvittaessa optimoitu MergeSort on erinomainen.  
+* Jos data on lähes järjestyksessä, tai sitä on pieni määrä, InsertionSort on varteenotettava vaihtoehto.
+* BubbleSort on lähes hyödytön, eikä sitä kannata käyttää oikein missään tilanteessa.
+* Arrays.sort on käytännössä turvallisin, ja paras yleistyökalu.
