@@ -1,4 +1,4 @@
-# TietorakenteetJaAlgoritmit-Harjoitustyo
+# TietorakenteetJaAlgoritmit-Harjoitustyö
 Harjoitustyö erilaisten järjestysalgoritmien vertailuun
 
 ## Raportti
